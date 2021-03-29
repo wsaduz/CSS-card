@@ -1,0 +1,103 @@
+.box {
+	width: 550px;
+	height: 400px;
+	background-color: white;
+	border: 1px solid gray;
+	border-bottom: 3px solid gray;
+	margin:0 auto;
+}
+
+.box-head {
+	width: 100%;
+	height: 60%;
+	background-color: #00BCD5;
+	position: relative;
+}
+
+.card {
+	position: absolute;
+	width: 300px;
+	top: 30px;
+	left: 100px;
+	height: 180px;
+	background-color: #00828F;
+}
+
+.card-2 {
+	position: absolute;
+    width: 180px;
+    height: 150px;
+	background-color: #0098A6;
+    top: 60px;
+    left: 289px;
+}
+
+.card-3 {
+	position: absolute;
+	width: 160px;
+	height: 120px;
+	background-color: #00ACC2;
+	top: 90px;
+    left: 240px;
+}
+
+.small {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #80DEEA;
+	border-radius: 10px;
+	top: 190px;
+    left: 390px;
+}
+
+.card-4 {
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	background-color: #4DD0E2;
+	top: 110px;
+    left: 223px;
+}
+
+.box-text {
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.card-button {
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	background-color: #F89806;
+	border-radius: 40px;
+	top: 212px;
+    left: 450px;
+    text-align:center;
+    color: white;
+}
+
+.card-button h2 {
+	position: absolute;
+	top: -6px;
+    left: 24px;
+}
+
+.card-button:hover {
+	background-color: yellow;
+	color:black;
+	width: 65px;
+	height: 55px;
+}
+
+.homework {
+	color: white;
+	border: 2px solid #F89806;
+	display: inline;
+	padding: 5px;
+	background-color: #00ACC2;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top: none;
+	border-bottom: none;
+}
